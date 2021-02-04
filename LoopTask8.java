@@ -17,7 +17,7 @@ public class LoopTask8 {
 
 		}
 
-		while (a > 0) {
+		while (a != 0) {
 
 			int res1 = a % 10;
 			a /= 10;
@@ -34,18 +34,3 @@ public class LoopTask8 {
 
 	}
 }
-
-/*
- * public static int scan(String message) {
- * 
- * @SuppressWarnings("resource") Scanner sc = new Scanner(System.in);
- * 
- * int value;
- * 
- * System.out.print(message);
- * 
- * while (!sc.hasNextInt()) { sc.next(); System.out.println(message); } value =
- * sc.nextInt();
- * 
- * return value; }
- */
